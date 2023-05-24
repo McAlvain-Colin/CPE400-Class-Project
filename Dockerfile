@@ -6,7 +6,7 @@ RUN apt-get update && \
     git \
     && pip install pytest coverage
 
-COPY driver.py /TCP/
+COPY driver.py TCP_unittest.py integreation_test.py /TCP/
 
 WORKDIR /TCP
 
